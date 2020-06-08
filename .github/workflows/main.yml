@@ -22,7 +22,7 @@ jobs:
 
  
     - name: Install NodeJs
-      run: npm run actions/setup-node@v2
+      uses: npm run actions/setup-node@v2
       with:
         version: 12
       
